@@ -84,6 +84,21 @@
 	.faq--item .faq-title .title {
     font-size: 18px;
 	}
+
+	.container.faq-section{	
+
+    	max-width: inherit;
+		background: url(../site/help.webp) no-repeat;
+	    background-size: 20%;
+	    top: 5px;
+	    background-position: left top;
+	}
+
+	.contact-section-main {
+	    margin-top: 105px;
+	}
+
+
 }
 
 
