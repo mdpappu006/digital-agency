@@ -3660,6 +3660,7 @@ input[type="submit"] {
 @media (min-width: 992px) {
     .banner-5 {
         padding: 130px 0 90px;
+        max-width: 100%;
     }
 }
 
@@ -3692,15 +3693,12 @@ input[type="submit"] {
 
 .banner-shape-5 {
     position: absolute;
-    left: calc(50% - 270px);
     right: 0;
-    top: 0;
-    text-align: right;
     bottom: 250px;
+    width: 65%;
 }
 
 .banner-shape-5 img {
-  width: 924px;
   height: 739px;
 }
 @media screen and (min-width: 1700px) {
@@ -14738,6 +14736,13 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     animation-delay: -0.8s;
     -webkit-animation-delay: -0.8s;
 }
+
+.main-container, .header-section.header-white-dark{
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+
 
 @keyframes preloader-fx {
     0% {
