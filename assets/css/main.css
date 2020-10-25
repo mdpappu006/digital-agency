@@ -11388,10 +11388,9 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 
 
 /*Faq Section Two Starts Here*/
-.faq-section {
+.container.faq-section{
     background: url(../site/help.webp) no-repeat;
-    background-size: 25%;
-    background-position: left 5%;
+    max-width: 1366px;
 }
 .faq-section.padding-top {
     padding-top: 70px;
@@ -11409,16 +11408,20 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     width: 85%;
     display: inline-block;
     font-weight: 900;
+    font-size: 18px;
+    margin: 20px 0px;
 }
 .faq-section .mt-70.mt-lg-0 img{
-    margin-bottom: 35px;
+    position: absolute;
+    top: -2%;
 }
 .faq-section .container{
   max-width: 1140px;
 }
 
 .contact-section-main {
-    margin-top: 190px;
+    margin-top: 155px;
+    padding-left: 15%;
 }
 .contact-section-main h4 {
     width: 85%;
@@ -11429,15 +11432,18 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     margin-bottom: 20px;
 }
 .contact-section-main form {
-  background: #fff;
+    background: #fff;
     padding: 15px;
-    width: 75%;
+    width: 90%;
     border-radius: 10px;
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 85px;
 }
 .contact-section-main form p{
   text-align: center;
+  color: #3B368C;
+  font-size: 22px;
+  margin-top: 15px;
 }
 .contact-section-main form .form-main input,textarea{
   background: #F6F6FA;
@@ -11452,7 +11458,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
   height: 35px;
 }
 .contact-section-main form .form-main textarea {
-    height: 120px;
+    height: 170px;
     border-radius: 5px;
 }
 .contact-section-main form .form-main button {
@@ -11479,6 +11485,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     font-weight: 700;
     margin: 0;
     margin-bottom: 0px;
+    font-size: 32px;
    
 }
 
@@ -11518,8 +11525,9 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 .faq--item .faq-title .title {
     margin: 0;
     padding-right: 15px;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 20px;
+    color: rgb(28, 28, 28);
 }
 
 .faq--item .faq-title .icon {
