@@ -389,11 +389,19 @@
     padding: 10px 40px 20px;
     width: 50%;
     height: auto;
+<<<<<<< HEAD
+=======
+	}
+	.dropshipping-main .container .col-lg-3.col-md-6 {
+    padding-right: 10px;
+    padding-left: 10px;
+>>>>>>> 220e89fde4e7797f3eb6f7494089d42447e8e860
 	}
 	.dropshipping-main .container .col-lg-3.col-md-6 {
     padding-right: 10px;
     padding-left: 10px;
 	}
+
 
 
 	.feature--thumb.style-two .owl-item .main-thumb img {
